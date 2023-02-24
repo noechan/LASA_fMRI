@@ -1,4 +1,5 @@
 %% Singing performance stats
+addpath('/Volumes/LASA/Aphasia_project/tb-fMRI/code_project/utils')
 %load data
 clear ()
 sing_falsetrials_Tydyy=readtable('sing_perf_ttests_Tydyy.csv');
@@ -26,12 +27,18 @@ sing_perf_Tydyy_singm_s2=cell2mat(sing_falsetrials_Tydyy_cell(58:76,7));
 [h, psinga_falsetrials_Tydyy]=ttest(sing_falsetrials_Tydyy_singa_s1, sing_falsetrials_Tydyy_singa_s2);
 [h, psingm_falsetrials_Tydyy]=ttest(sing_falsetrials_Tydyy_singm_s1, sing_falsetrials_Tydyy_singm_s2);
 
+%multcomp correction
+[h, crit_p, adj_ci_cvrg, adj_p]=fdr_bh([pbase_falsetrials_Tydyy,plisten_falsetrials_Tydyy,psinga_falsetrials_Tydyy,psingm_falsetrials_Tydyy], 0.05, 'pdep','no');
+
 save('ttest_sing_falsetrials_Tydyy.mat', 'pbase_falsetrials_Tydyy','plisten_falsetrials_Tydyy','psinga_falsetrials_Tydyy','psingm_falsetrials_Tydyy')
 
 [h, pbase_perf_Tydyy]=ttest(sing_perf_Tydyy_base_s1, sing_perf_Tydyy_base_s2);
 [h, plisten_perf_Tydyy]=ttest(sing_perf_Tydyy_listen_s1, sing_perf_Tydyy_listen_s2);
 [h, psinga_perf_Tydyy]=ttest(sing_perf_Tydyy_singa_s1, sing_perf_Tydyy_singa_s2);
 [h, psingm_perf_Tydyy]=ttest(sing_perf_Tydyy_singm_s1, sing_perf_Tydyy_singm_s2);
+
+%multcomp correction
+[h, crit_p, adj_ci_cvrg, adj_p]=fdr_bh([pbase_perf_Tydyy,plisten_perf_Tydyy,psinga_perf_Tydyy,psingm_perf_Tydyy], 0.05, 'pdep','no');
 
 save('ttest_sing_perf_Tydyy.mat', 'pbase_perf_Tydyy','plisten_perf_Tydyy','psinga_perf_Tydyy','psingm_perf_Tydyy')
 
@@ -62,12 +69,18 @@ sing_perf_Uulaa_singm_s2=cell2mat(sing_falsetrials_Uulaa_cell(58:76,7));
 [h, psinga_falsetrials_Uulaa]=ttest(sing_falsetrials_Uulaa_singa_s1, sing_falsetrials_Uulaa_singa_s2);
 [h, psingm_falsetrials_Uulaa]=ttest(sing_falsetrials_Uulaa_singm_s1, sing_falsetrials_Uulaa_singm_s2);
 
+%multcomp correction
+[h, crit_p, adj_ci_cvrg, adj_p]=fdr_bh([pbase_falsetrials_Uulaa,plisten_falsetrials_Uulaa,psinga_falsetrials_Uulaa,psingm_falsetrials_Uulaa], 0.05, 'pdep','no');
+
 save('ttest_sing_falsetrials_Uulaa.mat', 'pbase_falsetrials_Uulaa','plisten_falsetrials_Uulaa','psinga_falsetrials_Uulaa','psingm_falsetrials_Uulaa')
 
 [h, pbase_perf_Uulaa]=ttest(sing_perf_Uulaa_base_s1, sing_perf_Uulaa_base_s2);
 [h, plisten_perf_Uulaa]=ttest(sing_perf_Uulaa_listen_s1, sing_perf_Uulaa_listen_s2);
 [h, psinga_perf_Uulaa]=ttest(sing_perf_Uulaa_singa_s1, sing_perf_Uulaa_singa_s2);
 [h, psingm_perf_Uulaa]=ttest(sing_perf_Uulaa_singm_s1, sing_perf_Uulaa_singm_s2);
+
+%multcomp correction
+[h, crit_p, adj_ci_cvrg, adj_p]=fdr_bh([pbase_perf_Uulaa,plisten_perf_Uulaa,psinga_perf_Uulaa,psingm_perf_Uulaa], 0.05, 'pdep','no');
 
 save('ttest_sing_perf_Uulaa.mat', 'pbase_perf_Uulaa','plisten_perf_Uulaa','psinga_perf_Uulaa','psingm_perf_Uulaa')
 
@@ -98,12 +111,18 @@ sing_perf_TU_singm_s2=cell2mat(sing_falsetrials_TU_cell(58:76,15));
 [h, psinga_falsetrials_TU]=ttest(sing_falsetrials_TU_singa_s1, sing_falsetrials_TU_singa_s2);
 [h, psingm_falsetrials_TU]=ttest(sing_falsetrials_TU_singm_s1, sing_falsetrials_TU_singm_s2);
 
+%multcomp correction
+[h, crit_p, adj_ci_cvrg, adj_p]=fdr_bh([pbase_falsetrials_TU,plisten_falsetrials_TU,psinga_falsetrials_TU,psingm_falsetrials_TU], 0.05, 'pdep','no');
+
 save('ttest_sing_falsetrials_TU.mat', 'pbase_falsetrials_TU','plisten_falsetrials_TU','psinga_falsetrials_TU','psingm_falsetrials_TU')
 
 [h, pbase_perf_TU]=ttest(sing_perf_TU_base_s1, sing_perf_TU_base_s2);
 [h, plisten_perf_TU]=ttest(sing_perf_TU_listen_s1, sing_perf_TU_listen_s2);
 [h, psinga_perf_TU]=ttest(sing_perf_TU_singa_s1, sing_perf_TU_singa_s2);
 [h, psingm_perf_TU]=ttest(sing_perf_TU_singm_s1, sing_perf_TU_singm_s2);
+
+%multcomp correction
+[h, crit_p, adj_ci_cvrg, adj_p]=fdr_bh([pbase_perf_TU,plisten_perf_TU,psinga_perf_TU,psingm_perf_TU], 0.05, 'pdep','no');
 
 save('ttest_sing_perf_TU.mat', 'pbase_perf_TU','plisten_perf_TU','psinga_perf_TU','psingm_perf_TU')
 
