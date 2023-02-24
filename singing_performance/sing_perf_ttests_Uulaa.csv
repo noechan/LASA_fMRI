@@ -1,0 +1,77 @@
+Trial,Session ,False trials,Performance,Session,False trials,Perfomance,Session,False trials,Performance
+Baseline,1,2,90,2,1,95,3,2,90
+Baseline,1,1,95,2,0,100,3,0,100
+Baseline,1,1,95,2,0,100,3,0,100
+Baseline,1,7,65,2,0,100,3,0,100
+Baseline,1,1,95,2,0,100,3,0,100
+Baseline,1,20,0,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Baseline,1,0,100,2,0,100,3,0,100
+Listen,1,1,97,2,1,97,3,3,90
+Listen,1,1,97,2,19,37,3,20,33
+Listen,1,1,97,2,2,93,3,1,97
+Listen,1,1,97,2,1,97,3,2,93
+Listen,1,2,93,2,5,83,3,1,97
+Listen,1,1,97,2,27,10,3,30,0
+Listen,1,8,73,2,5,83,3,0,100
+Listen,1,15,50,2,30,0,3,0,100
+Listen,1,3,90,2,0,100,3,0,100
+Listen,1,27,10,2,0,100,3,0,100
+Listen,1,21,30,2,0,100,3,0,100
+Listen,1,3,90,2,0,100,3,0,100
+Listen,1,12,60,2,0,100,3,0,100
+Listen,1,30,0,2,0,100,3,0,100
+Listen,1,0,100,2,0,100,3,0,100
+Listen,1,0,100,2,0,100,3,0,100
+Listen,1,0,100,2,0,100,3,0,100
+Listen,1,0,100,2,0,100,3,0,100
+Listen,1,0,100,2,0,100,3,0,100
+Sing along,1,4,87,2,1,97,3,1,97
+Sing along,1,1,97,2,9,70,3,2,93
+Sing along,1,26,13,2,23,23,3,1,97
+Sing along,1,14,53,2,2,93,3,1,97
+Sing along,1,5,83,2,7,77,3,1,97
+Sing along,1,3,90,2,3,90,3,6,80
+Sing along,1,9,70,2,1,97,3,20,33
+Sing along,1,1,97,2,0,100,3,1,97
+Sing along,1,0,100,2,0,100,3,1,97
+Sing along,1,0,100,2,0,100,3,1,97
+Sing along,1,0,100,2,0,100,3,0,100
+Sing along,1,0,100,2,0,100,3,0,100
+Sing along,1,0,100,2,0,100,3,0,100
+Sing along,1,0,100,2,0,100,3,0,100
+Sing along,1,0,100,2,0,100,3,0,100
+Sing along,1,0,100,2,0,100,3,0,100
+Sing along,1,0,100,2,0,100,3,0,100
+Sing along,1,0,100,2,0,100,3,0,100
+Sing along,1,0,100,2,0,100,3,0,100
+Sing from memory ,1,5,83,2,1,97,3,2,93
+Sing from memory ,1,2,93,2,1,97,3,2,93
+Sing from memory ,1,1,97,2,5,83,3,1,97
+Sing from memory ,1,22,27,2,2,93,3,4,87
+Sing from memory ,1,4,87,2,5,83,3,1,97
+Sing from memory ,1,7,77,2,3,90,3,1,97
+Sing from memory ,1,2,93,2,30,0,3,0,100
+Sing from memory ,1,29,3,2,27,10,3,0,100
+Sing from memory ,1,1,97,2,0,100,3,0,100
+Sing from memory ,1,30,0,2,0,100,3,0,100
+Sing from memory ,1,0,100,2,0,100,3,0,100
+Sing from memory ,1,0,100,2,0,100,3,0,100
+Sing from memory ,1,0,100,2,0,100,3,0,100
+Sing from memory ,1,0,100,2,0,100,3,0,100
+Sing from memory ,1,0,100,2,0,100,3,0,100
+Sing from memory ,1,0,100,2,0,100,3,0,100
+Sing from memory ,1,0,100,2,0,100,3,0,100
+Sing from memory ,1,0,100,2,0,100,3,0,100
+Sing from memory ,1,0,100,2,0,100,3,0,100
